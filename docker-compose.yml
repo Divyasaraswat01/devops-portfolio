@@ -1,0 +1,7 @@
+services:
+  website:
+    image: devops-website:v1
+    container_name: devops-website-container
+    ports:
+      - "8080:80"
+    restart: always
